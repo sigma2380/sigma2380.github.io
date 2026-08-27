@@ -4,6 +4,34 @@
     }
 }
 
+@font-face {
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/kreon-v40-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Telex';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/telex-v20-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/patrick-hand-v25-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nothing You Could Do';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/nothing-you-could-do-v21-latin-regular.woff2') format('woff2');
+}
+
 body {
     margin: 0px;
     color: darkslategray;
@@ -29,8 +57,7 @@ h1>a {
     color: darkslategray;
 }
 
-input {
-    margin-top: 0.3rem;
+input, textarea{
     padding: .5rem 0.8rem;
     border: 1px solid sandybrown;
     border-radius: 2rem;
@@ -40,6 +67,14 @@ input {
     font-family: "Telex", sans-serif;
     letter-spacing: 0;
     width: 13.1rem;
+}
+textarea {
+    field-sizing: content;
+    min-height: 3lh;
+}
+input.search {
+    margin-top: 0.3rem;
+
 }
 
 div#content {

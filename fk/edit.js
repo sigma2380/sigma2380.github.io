@@ -8,12 +8,12 @@ function updateJsonOutput()
     var author = document.getElementById("author").value;
     var json = "{}";
     json = JSON.stringify({
-        id: rid,
-        title: title,
-        category: category,
-        ingredients: ingredients,
-        instructions: instructions,
-        author: author
+        ID: rid,
+        Title: title,
+        Category: category,
+        Ingredients: ingredients,
+        Instructions: instructions,
+        Author: author
     });
     document.getElementById("json-output").innerHTML = json;
 }
