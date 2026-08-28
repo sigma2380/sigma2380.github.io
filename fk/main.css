@@ -3,6 +3,7 @@
         font-size: 12px;
         input#search {
             background-size: 20px 20px;
+            width: 9rem;
         }
         a#edit>img {
             height: 20px;
@@ -72,7 +73,7 @@ input, textarea{
     color: inherit;
     font-family: "Telex", sans-serif;
     letter-spacing: 0;
-    width: 13.1rem;
+    width: 14rem;
 }
 textarea {
     field-sizing: content;
