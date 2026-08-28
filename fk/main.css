@@ -1,6 +1,9 @@
 @media (max-width: 600px) {
     html { 
         font-size: 12px;
+        input#search {
+            background-size: 20px 20px;
+        }
     }
 }
 
@@ -72,9 +75,12 @@ textarea {
     field-sizing: content;
     min-height: 3lh;
 }
-input.search {
+input#search {
     margin-top: 0.3rem;
-
+    background-image: url('search.png');
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
 }
 
 div#content {
@@ -155,4 +161,12 @@ div.error {
     color: white;
     background-color: maroon;
     padding: 0.5rem;
+}
+
+a#edit {
+    font-size: small;
+    
+}
+a#edit>img {
+height: 30px;
 }
